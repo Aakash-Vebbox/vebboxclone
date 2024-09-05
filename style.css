@@ -487,5 +487,64 @@ nav{
 hr{
     color: blue;
 }
+.contact-details p i{
+    color:blue;
+    margin: 10px;
+}
+.contact-details p {
+    color:lightslategray;
+    margin: 10px;
+}
+.mission p{
+    color: lightslategray;
+}
+.contact-us{
+    border: solid;
+    /* background-color: blue; */
+    text-align: center;
 
-
+}
+.name{
+    background-color: aqua;
+    height: 35px;
+}
+.name input{
+    height: 100%;
+    width: 100%;
+}
+.your-email{
+    background-color: aqua;
+    height: 35px;
+}
+.your-email input{
+    height:100% ;
+    width: 100%;
+}
+.subject{
+    background-color: aqua;
+    height: 35px;
+}
+.subject input{
+    height:100% ;
+    width: 100%;
+}
+.textarea{
+    background-color: aqua;
+    height: 35px;
+    width: 100%;
+}
+.textarea textarea{
+    height:100% ;
+    width: 100%;
+}
+.btn1{
+    height: 30px;
+    width: 200px;
+    margin: auto;
+}
+.btn1 button{
+    height: 100%;
+    width: 100%;
+    background-color: blue;
+    /* margin: auto; */
+}
