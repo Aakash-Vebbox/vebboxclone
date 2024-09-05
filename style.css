@@ -513,17 +513,22 @@ hr{
 .name input{
     height: 100%;
     width: 100%;   
-    border-color: rgba(140, 135, 135, 0.147);
+    padding: 0px 5px;
+}
+.name input:hover{
+    border-color: #3498DB;
 }
 .your-email{
     background-color: aqua;
     height: 35px;
-    border-color: rgba(140, 135, 135, 0.147);
 }
 .your-email input{
     height:100% ;
     width: 100%;
-    border-color: rgba(140, 135, 135, 0.147);
+    padding: 0px 5px;
+}
+.your-email input:hover{
+    border-color: #3498DB;
 }
 .subject{
     background-color: aqua;
@@ -532,7 +537,10 @@ hr{
 .subject input{
     height:100% ;
     width: 100%;
-    border-color: rgba(140, 135, 135, 0.147);
+    padding: 0px 5px;
+}
+.subject input:hover{
+    border-color: #3498DB;
 }
 .textarea{
     background-color: aqua;
@@ -542,8 +550,11 @@ hr{
 .textarea textarea{
     height:100% ;
     width: 100%;
-    border-color: rgba(140, 135, 135, 0.147);
+    padding: 0px 5px;
 
+}
+.textarea textarea:hover{
+    border-color: #3498DB;
 }
 .btn1{
     height: 30px;
@@ -571,8 +582,16 @@ hr{
     padding: 5px 6px;
     color: #3498DB;
 }
+.contact{
+    margin: 5%;
+}
 /* .details{
     display: flex;
     justify-content:space-between;
     margin: 2%;
 } */
+@media screen  and (max-width:1024){
+  .fa-brands{
+    height: 30%;
+  }
+}
