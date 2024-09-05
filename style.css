@@ -5,6 +5,7 @@
 :root{
  --primary-font:"Raleway", system-ui;
  --secondary-font: "Open Sans", sans-serif;
+ --color:#3498DB;
 }
 .container{
     /* margin: 0px 5%; */
@@ -31,7 +32,7 @@ nav ul li{
 
 }
 nav ul li .home{
-    color: rgb(48, 172, 234);
+    color:#3498DB;
 }
 nav ul{
     display: flex;
@@ -69,7 +70,7 @@ nav{
     border-radius: 20px;
     border: none;
     outline: none;
-    background-color: rgb(48, 172, 234);
+    background-color:#3498DB;
     color: white;
     padding: 8px;
 } 
@@ -112,15 +113,17 @@ nav{
 .button{
     font-size: 16px;
     border-radius: 20px;
-    border: 2px solid rgb(48, 172, 234);;
+    border: 2px solid#3498DB;;
     outline: none;
-    color: rgb(48, 172, 234);
+    color:#3498DB;
     background-color: #fff;
     padding: 8px;
 }
 .button:hover{
-    background-color: rgb(48, 172, 234);
+    background-color:#3498DB;
     color:#fff;
+    transition: ease-in 1.3s;
+    cursor: pointer;
     border: none;
 }
 @keyframes anim{
@@ -196,9 +199,9 @@ nav{
     .button{
         font-size: 20px;
         border-radius: 20px;
-        border: 2px solid rgb(48, 172, 234);;
+        border: 2px solid#3498DB;;
         outline: none;
-        color: rgb(48, 172, 234);
+        color:#3498DB;
         background-color: #fff;
         padding: 8px;
         width: 150px;
@@ -465,7 +468,6 @@ nav{
         flex-basis: 100%;
 
     }
-}
 .contact{
     min-height: 100vh;
     font-family: var(--secondary-font);
@@ -487,38 +489,41 @@ nav{
 hr{
     color: blue;
 }
+.contact-us{
+    margin-top: 2%;
+    margin-left: 1%;
+}
 .contact-details p i{
-    color:blue;
+   color: rgb(93, 194, 244); 
     margin: 10px;
 }
 .contact-details p {
     color:lightslategray;
-    margin: 10px;
+    margin: 5px;
 }
 .mission p{
     color: lightslategray;
-}
-.contact-us{
-    border: solid;
-    /* background-color: blue; */
-    text-align: center;
-
+    font-size:90%;
 }
 .name{
     background-color: aqua;
     height: 35px;
+    
 }
 .name input{
     height: 100%;
-    width: 100%;
+    width: 100%;   
+    border-color: rgba(140, 135, 135, 0.147);
 }
 .your-email{
     background-color: aqua;
     height: 35px;
+    border-color: rgba(140, 135, 135, 0.147);
 }
 .your-email input{
     height:100% ;
     width: 100%;
+    border-color: rgba(140, 135, 135, 0.147);
 }
 .subject{
     background-color: aqua;
@@ -527,15 +532,18 @@ hr{
 .subject input{
     height:100% ;
     width: 100%;
+    border-color: rgba(140, 135, 135, 0.147);
 }
 .textarea{
     background-color: aqua;
-    height: 35px;
+    height: 150px;
     width: 100%;
 }
 .textarea textarea{
     height:100% ;
     width: 100%;
+    border-color: rgba(140, 135, 135, 0.147);
+
 }
 .btn1{
     height: 30px;
@@ -545,6 +553,26 @@ hr{
 .btn1 button{
     height: 100%;
     width: 100%;
-    background-color: blue;
+    background-color: #3498DB;
+    color: #fff;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius:20px;
     /* margin: auto; */
 }
+.icons{
+    height: 10vh;
+    margin-top: 2%;
+}
+.fa-brands{
+    border: solid #3498DB;
+    border-radius: 50%;
+    height: 50%;
+    padding: 5px 6px;
+    color: #3498DB;
+}
+/* .details{
+    display: flex;
+    justify-content:space-between;
+    margin: 2%;
+} */
