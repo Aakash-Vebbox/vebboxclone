@@ -447,6 +447,7 @@ nav{
 }
 .special h1{
     margin-bottom: 15px;
+    font-weight: 900;
 }
 .special p{
     max-width: 90%;
@@ -459,6 +460,14 @@ nav{
 }
 .column1, .column2{
     row-gap: 30px;
+}
+.fa-regular{
+    color: var(--color);
+    margin: 0px 12px;
+}
+.fa-solid{
+    color:var(--color);
+    margin: 0px 12px;
 }
 @media screen and (max-width: 1024){
     .about-row2{
@@ -481,6 +490,7 @@ nav{
     /* font-family: var(--secondary-font); */
     word-spacing: 2px;
     line-height: 1.5;
+    max-width:60%;
 }
 .mission{
     /* background-color: aqua; */
@@ -490,8 +500,7 @@ hr{
     color: blue;
 }
 .contact-us{
-    margin-top: 2%;
-    margin-left: 1%;
+    flex-basis: 50%;
 }
 .contact-details p i{
    color: rgb(93, 194, 244); 
@@ -585,13 +594,30 @@ hr{
 .contact{
     margin: 5%;
 }
-/* .details{
+.details{
     display: flex;
     justify-content:space-between;
     margin: 2%;
-} */
-@media screen  and (max-width:1024){
-  .fa-brands{
+}
+@media screen and (max-width:1024){
+  .details{
     height: 30%;
+    background-color:rgb(255, 34, 0);
   }
+}
+.footer {
+    height: 100px;
+    background-color: white;
+    box-shadow: 0px 0px 10px 10px whitesmoke;  
+}
+.footer p{
+    color: black;
+    font-weight: 100;
+    margin: 12px 125px;
+}
+.copyright{   
+   padding: 12px 50px;
+}
+span{
+    color: #3498DB;
 }
