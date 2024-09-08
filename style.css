@@ -481,6 +481,9 @@ nav{
     min-height: 100vh;
     font-family: var(--secondary-font);
 }
+.column2 .change{
+    margin-top: 15px;
+}
 .brand{
     /* font-family: var(--secondary-font); */
     font-size: 26px;
