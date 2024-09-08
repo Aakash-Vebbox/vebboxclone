@@ -480,6 +480,7 @@ nav{
 .contact{
     min-height: 100vh;
     font-family: var(--secondary-font);
+    margin-top: 20px;
 }
 .brand{
     /* font-family: var(--secondary-font); */
@@ -501,6 +502,7 @@ hr{
 }
 .contact-us{
     flex-basis: 50%;
+    margin-top: 12px;
 }
 .contact-details p i{
    color: rgb(93, 194, 244); 
